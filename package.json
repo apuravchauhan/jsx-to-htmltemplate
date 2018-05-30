@@ -1,0 +1,40 @@
+{
+  "name": "jsx-to-htmltemplate",
+  "version": "0.1.1",
+  "description": "An experimental cli utility to convert JSX into html template. It also support different templating engines like java freemarker to render a template engine specific format",
+  "main": "index.js",
+  "bin": {
+    "jsx-htmltemplate": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apuravchauhan/jsx-to-htmltemplate.git"
+  },
+  "keywords": [
+    "jsx-to-html",
+    "jsx",
+    "html-template",
+    "jsx-transformer",
+    "jsx compiler",
+    "jsx to html processor",
+    "jsx-freemarker",
+    "jsx-java-template"
+  ],
+  "dependencies": {
+    "babel-plugin-jsx-to-generichtml": "^0.1.5",
+    "chalk": "^2.4.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "minimist": "^1.2.0",
+    "posthtml-jsxhtml-freemarker": "^0.1.2"
+  },
+  "author": "Apurav Chauhan <apurav.chauhan@gmail.com> (http://apuravchauhan.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apuravchauhan/jsx-to-htmltemplate/issues"
+  },
+  "homepage": "https://github.com/apuravchauhan/jsx-to-htmltemplate#readme"
+}
