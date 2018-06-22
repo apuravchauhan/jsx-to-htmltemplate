@@ -74,7 +74,7 @@ const transformFile = (basePath, outputPath) => {
         fs.writeFileSync(dest, transformed);
       }
     }
-  
+
   });
 }
 
@@ -90,11 +90,11 @@ try {
    * Transforming all files recursively
   */
   transformFile(basePath, outputPath);
-
+  
   var contents = fs.readFileSync(path.join(outputPath, entryFile), 'utf8');
-  var output = posthtml([posthtmlFreemarker({ loc: outputPath })])
-  .process(contents, { sync: true });
-  console.log(output.html);
+  var htmlTree = posthtmlFreemarker({ loc: outputPath, skipComponents: ['I18N', 'Button']});
+  var output = posthtml([htmlTree]).process(contents, { sync: true });
+  console.log(output.html.replace(/\$+/g,'$'));
 } finally {
   status.stop();
 }

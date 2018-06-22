@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "babel-plugin-jsx-to-generichtml": "^0.1.5",
+    "babel-traverse": "^6.26.0",
     "chalk": "^2.4.1",
     "clui": "^0.3.6",
     "figlet": "^1.2.0",
@@ -36,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/apuravchauhan/jsx-to-htmltemplate/issues"
   },
-  "homepage": "https://github.com/apuravchauhan/jsx-to-htmltemplate#readme"
+  "homepage": "https://github.com/apuravchauhan/jsx-to-htmltemplate#readme",
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0"
+  }
 }
