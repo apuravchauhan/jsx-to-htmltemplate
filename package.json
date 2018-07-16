@@ -39,6 +39,12 @@
   },
   "homepage": "https://github.com/apuravchauhan/jsx-to-htmltemplate#readme",
   "devDependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "babel-generator": "^6.26.1",
+    "babel-plugin-css-modules-transform": "^1.6.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
