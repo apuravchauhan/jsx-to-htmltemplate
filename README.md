@@ -30,6 +30,6 @@ jsx-htmltemplate is based on plugin system. Behind the scene, it uses babel plug
 License
 ----
 
-MIT
+MIT License
 
    [PlDb]: <https://github.com/apuravchauhan/posthtml-jsxhtml-freemarker/>
