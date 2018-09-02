@@ -29,7 +29,8 @@
     "clui": "^0.3.6",
     "figlet": "^1.2.0",
     "minimist": "^1.2.0",
-    "posthtml-jsxhtml-freemarker": "^0.1.2"
+    "posthtml-jsxhtml-freemarker": "^0.1.2",
+    "pretty": "^2.0.0"
   },
   "author": "Apurav Chauhan <apurav.chauhan@gmail.com> (http://apuravchauhan.com)",
   "license": "MIT",

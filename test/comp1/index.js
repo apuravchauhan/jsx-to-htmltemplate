@@ -1,0 +1,1 @@
+<p>Child component loaded</p>
