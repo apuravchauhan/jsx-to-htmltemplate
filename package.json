@@ -1,6 +1,6 @@
 {
   "name": "jsx-to-htmltemplate",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "An experimental cli utility to convert JSX into html template. It also support different templating engines like java freemarker to render a template engine specific format",
   "main": "index.js",
   "bin": {
@@ -24,7 +24,7 @@
     "jsx-java-template"
   ],
   "dependencies": {
-    "babel-plugin-jsx-to-generichtml": "^0.1.5",
+    "babel-plugin-jsx-to-generichtml": "^0.1.6",
     "chalk": "^2.4.1",
     "clui": "^0.3.6",
     "figlet": "^1.2.0",
