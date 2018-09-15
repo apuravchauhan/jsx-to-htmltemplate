@@ -44,7 +44,7 @@ var basePath = fileUtil.getComponentDir(args.d);
 var entryFile = args.e || 'index.js';
 var outputPath = args.o || 'out-template';
 
-const status = new Spinner('Authenticating you, please wait...');
+const status = new Spinner('Processing, please wait...');
 try {
   status.start();
   //create output directory
